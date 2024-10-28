@@ -41,6 +41,8 @@ public class NewsService {
                 .bodyToMono(NewsApiResponseDto.class)
 				.block();
 		return newsMono.articles();
+		
+		
 	}
 	/*
 	bodyToMono(NewsApiResponseDto.class):
